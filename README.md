@@ -1,36 +1,36 @@
 # Assistente Virtual Inteligente com ChatGPT e Dados Personalizados
 
-Este projeto demonstra como criar um assistente virtual utilizando o ChatGPT e seus prÛprios dados de forma simples e eficiente. Utilizando Python e a biblioteca [LangChain](https://github.com/hwchase17/langchain), È possÌvel conectar LLMs (Large Language Models) a diversos tipos de dados personalizados, criando um sistema inteligente e responsivo ‡s necessidades especÌficas de cada usu·rio.
+Este projeto demonstra como criar um assistente virtual utilizando o ChatGPT e seus pr√≥prios dados de forma simples e eficiente. Utilizando Python e a biblioteca [LangChain](https://github.com/hwchase17/langchain), √© poss√≠vel conectar LLMs (Large Language Models) a diversos tipos de dados personalizados, criando um sistema inteligente e responsivo √†s necessidades espec√≠ficas de cada usu√°rio.
 
 ## Funcionalidades
 
-- **AlimentaÁ„o de LLMs com Dados PrÛprios**: IntegraÁ„o de LLMs com dados especÌficos que o usu·rio deseja usar, personalizando o conhecimento do assistente.
+- **Alimenta√ß√£o de LLMs com Dados Pr√≥prios**: Integra√ß√£o de LLMs com dados espec√≠ficos que o usu√°rio deseja usar, personalizando o conhecimento do assistente.
 - **Processamento Natural de Linguagem (NLP)**: Aproveita o poder da API ChatGPT para entender e responder perguntas com base nos dados fornecidos.
-- **InteligÍncia Adapt·vel**: Pode ser treinado com diferentes tipos de dados para suportar desde perguntas frequentes atÈ soluÁıes complexas.
+- **Intelig√™ncia Adapt√°vel**: Pode ser treinado com diferentes tipos de dados para suportar desde perguntas frequentes at√© solu√ß√µes complexas.
 
 ## Tecnologias Utilizadas
 
-- **Python**: Linguagem de programaÁ„o principal do projeto.
-- **LangChain**: Biblioteca que facilita a integraÁ„o de LLMs com diferentes fontes de dados.
-- **ChatGPT**: Utilizado para processar e responder perguntas com base no contexto oferecido pelos dados do usu·rio.
+- **Python**: Linguagem de programa√ß√£o principal do projeto.
+- **LangChain**: Biblioteca que facilita a integra√ß√£o de LLMs com diferentes fontes de dados.
+- **ChatGPT**: Utilizado para processar e responder perguntas com base no contexto oferecido pelos dados do usu√°rio.
 
-## PrÈ-requisitos
+## Pr√©-requisitos
 
 1. **Python 3.8+**
-2. **Instalar as dependÍncias**:
+2. **Instalar as depend√™ncias**:
     ```bash
-    pip install langchain openai
+    pip install langchain openai streamlit python_dotenv langchain_community
     ```
 
 ## Como Usar
 
-1. **ConfiguraÁ„o da API**: Adicione sua chave de API do OpenAI no arquivo `.env` ou diretamente no cÛdigo.
-2. **AlimentaÁ„o dos Dados**: Defina os dados que deseja que o assistente utilize. Estes dados podem ser carregados de um banco de dados, arquivos locais, APIs, entre outras fontes.
-3. **InicializaÁ„o do Assistente**: Execute o script principal para iniciar a interaÁ„o com o assistente virtual.
+1. **Configura√ß√£o da API**: Adicione sua chave de API do OpenAI no arquivo `.env` ou diretamente no c√≥digo.
+2. **Alimenta√ß√£o dos Dados**: Defina os dados que deseja que o assistente utilize. Estes dados podem ser carregados de um banco de dados, arquivos locais, APIs, entre outras fontes.
+3. **Inicializa√ß√£o do Assistente**: Execute o script principal para iniciar a intera√ß√£o com o assistente virtual.
 
 ## Exemplo de Uso
 
-ApÛs configurar o projeto, basta inicializar a aplicaÁ„o e comeÁar a fazer perguntas. O assistente responder· com base nos dados fornecidos e no contexto do ChatGPT.
+Ap√≥s configurar o projeto, basta inicializar a aplica√ß√£o e come√ßar a fazer perguntas. O assistente responder√° com base nos dados fornecidos e no contexto do ChatGPT.
 
 ```bash
 python assistente_virtual.py
@@ -38,15 +38,15 @@ python assistente_virtual.py
 
 ---
 
-## ContribuiÁıes
+## Contribui√ß√µes
 
-Sinta-se ‡ vontade para contribuir com melhorias, sugestıes ou correÁıes. Pull requests s„o bem-vindos!
+Sinta-se √† vontade para contribuir com melhorias, sugest√µes ou corre√ß√µes. Pull requests s√£o bem-vindos!
 
 ---
 
-## LicenÁa
+## Licen√ßa
 
-Este projeto est· licenciado sob a [LicenÁa MIT](LICENSE).
+Este projeto est√° licenciado sob a [Licen√ßa MIT](LICENSE).
 
 --- 
 
